@@ -53,9 +53,14 @@ systemctl start ufw
 ```
 # ufw allow 22/tcp
 
+-- Shadowsocks Only --
+# ufw allow 23456/tcp
+
 -- VMess Only --
-# ufw allow 80/tcp
 # ufw allow 443/tcp
+
+-- Option --
+# ufw allow 80/tcp
 ```
 
 ufw status <br>

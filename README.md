@@ -1,7 +1,7 @@
 
 ## V2ray
 <br>
-<Strong>마지막 확인 Date: 2021. 04. 03
+<Strong>마지막 확인 Date: 2021. 04. 03</Strong>
 <br>
 <br>
 https://www.v2fly.org/en_US/guide/install.html#supported-os-platforms <br>

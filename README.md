@@ -129,7 +129,7 @@ $ certbot renew
 $ vi /etc/nginx/conf.d/default.conf
 
 Nginx 폴더 파일을 참고하여 내용 작성
- - ceool.com 4곳 수정
+ - ceool.com 5곳 수정
 ```
 
 systemctl restart nginx

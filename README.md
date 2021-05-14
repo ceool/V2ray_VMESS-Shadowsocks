@@ -131,7 +131,13 @@ $ vi /etc/nginx/conf.d/default.conf
 Nginx 폴더 파일을 참고하여 내용 작성
  - ceool.com 5곳 수정
 ```
+```
+$ vi /etc/nginx/sites-available/default
+ - server_name _; 으로 다시 변경
 
+## nginx: [warn] conflicting server name "example.com" on 0.0.0.0:80, ignored
+## 해당 오류를 피하기 위함.
+```
 systemctl restart nginx
 
 <br>

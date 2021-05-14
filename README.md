@@ -115,8 +115,8 @@ $ certbot renew --pre-hook "service nginx stop" --post-hook "service nginx start
 $ certbot renew --dry-run
 ```
 ```
-# 리다이렉션 설정을 했을 경우, /etc/nginx/conf.d/default.conf 파일 수정 후 적용
-## return 301 https://$server_name$request_uri; 주석처리
+# 갱신 실패시, 301 리다이렉트 /etc/nginx/conf.d/default.conf 주석처리 후 적용
+- return 301 https://$server_name$request_uri; 주석처리
 
 $ systemctl restart nginx
 $ certbot renew
@@ -129,7 +129,7 @@ $ certbot renew
 $ vi /etc/nginx/conf.d/default.conf
 
 Nginx 폴더 파일을 참고하여 내용 작성
- - ceool.com 5곳 수정
+ - ceool.com 4곳 수정
 ```
 ```
 $ vi /etc/nginx/sites-available/default

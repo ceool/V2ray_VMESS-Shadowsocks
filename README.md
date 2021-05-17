@@ -141,6 +141,14 @@ $ vi /etc/nginx/sites-available/default
 systemctl restart nginx
 
 <br>
+
+## Nginx SSL Server Test Result
+![ㅇㅇ](https://user-images.githubusercontent.com/62891711/118512248-9b509580-b76d-11eb-84fe-4f8c86fb680f.png)
+![11](https://user-images.githubusercontent.com/62891711/118513565-cc7d9580-b76e-11eb-8cf1-eace4e7ed323.png)
+
+HTTP server signature	nginx/1.14.2
+
+<br>
 <br>
 
 ## 자동실행 등록

@@ -13,7 +13,9 @@
         "clients": [
           {
             "id": "741d07c2-354c-445a-aaa2-7fccc1e9af74",
-            "alterId": 0
+            "alterId": 0,
+            "security": "auto",
+            "level": 0
           }
         ]
       },

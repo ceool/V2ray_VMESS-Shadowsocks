@@ -109,7 +109,11 @@ $ certbot certonly --webroot --webroot-path=/var/www/html -d DNS_HOST
 
 - 인증서 갱신 (crontab 사용)
 ```
+$ certbot renew
+
+## 오류시 아래 명령어 사용
 $ certbot renew --pre-hook "service nginx stop" --post-hook "service nginx start"
+
 
 인증서 갱신 테스트
 $ certbot renew --dry-run
